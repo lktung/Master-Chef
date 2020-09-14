@@ -23,7 +23,6 @@ class IntroActivity : AppCompatActivity() {
             }
 
             override fun onTick(p0: Long) {}
-
         }.start()
     }
 }

@@ -1,4 +1,4 @@
-package com.KaiTi.masterchef.screen.main.search
+package com.KaiTi.masterchef.screen.main.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.KaiTi.masterchef.R
 
-class SearchFoodFragment : Fragment() {
+class HomeFragment : Fragment() {
 
-    override fun onCreateView(
+      override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_search_food, container, false)
+        return inflater.inflate(R.layout.fragment_home, container, false)
     }
 }

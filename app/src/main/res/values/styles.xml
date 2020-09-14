@@ -7,4 +7,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextIntro">
+        <item name="android:textSize">@dimen/sp_40</item>
+        <item name="fontFamily">@font/chewy</item>
+    </style>
+    <style name="tabLayoutToolbarStyle">
+        <item name="android:fontFamily">@font/chewy</item>
+        <item name="android:textSize">@dimen/sp_35</item>
+    </style>
+
 </resources>
